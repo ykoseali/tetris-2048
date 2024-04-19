@@ -1,26 +1,25 @@
-import lib.stddraw as stddraw  # used for drawing the tiles to display them
-from lib.color import Color  # used for coloring the tiles
-
-# A class for modeling numbered tiles as in 2048
-class Tile:
-   # Class variables shared among all Tile objects
+import lib.stddraw as stddraw  # stddraw is used as a basic graphics library
+from lib.color import Color  # used for coloring the tile and the number on it
+# Class used for modeling numbered tiles as in 2048
+class Tile: 
+   # Class attributes shared among all Tile objects
    # ---------------------------------------------------------------------------
    # the value of the boundary thickness (for the boxes around the tiles)
-   boundary_thickness = 0.004
-   # font family and font size used for displaying the tile number
+   boundary_thickness = 0.002
+   # font family and size used for displaying the tile number
    font_family, font_size = "Arial", 14
 
-   # A constructor that creates a tile with 2 as the number on it
+   # Constructor that creates a tile with 2 as the number on it
    def __init__(self):
-      # set the number on this tile
+      # set the number on the tile
       self.number = 2
-      # set the colors of this tile
-      self.background_color = Color(151, 178, 199)  # background (tile) color
-      self.foreground_color = Color(0, 100, 200)  # foreground (number) color
-      self.box_color = Color(0, 100, 200)  # box (boundary) color
+      # set the colors of the tile
+      self.background_color = Color(200, 0, 200) # background (tile) color
+      self.foreground_color = Color(50, 50, 50) # foreground (number) color
+      self.box_color = Color(0, 100, 10) # box (boundary) color
 
-   # A method for drawing this tile at a given position with a given length
-   def draw(self, position, length=1):  # length defaults to 1
+   # Method for drawing the tile
+   def draw(self, position, length = 1):
       # draw the tile as a filled square
       stddraw.setPenColor(self.background_color)
       stddraw.filledSquare(position.x, position.y, length / 2)
