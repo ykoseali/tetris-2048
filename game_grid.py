@@ -3,7 +3,6 @@ from lib.color import Color # used for coloring the game grid
 from point import Point  # used for tile positions
 import numpy as np  # fundamental Python module for scientific computing
 import copy as cp
-import pygame
 
 # Class used for modelling the game grid
 # Draws the game screen
