@@ -63,7 +63,3 @@ o   def __init__(): In addition to the shapes in the base code, we added other s
 o   def rotation(): Method rotates tetrominos clockwise. Copies tile matrix array to avoid losing data and move each tile on the original array using (x,y) = (y, n - 1 -x).
  
 o   def hard_drop(): Method to make hard drop. This method basically places the active tetromino immediately on the lowest available tile.
-
-DIVISION OF RESPONSIBILITIES
-
-Before we started working together on the project, a meeting was held and everyone shared what they had done. After the meeting, everyone continued to work on the code they developed. At the second meeting at the end of the day, it was decided to work on the file developed by Işıl and Yiğit. Yiğit continued to work on Tetris_2048.py, Işıl on game_grid.py and tile.py, and İlayda on tetromino.py. Lastly, the files that came back to Işıl were checked and edited. After a few revisions, Işıl shared the final version of the code with Yiğit and İlayda in a final meeting. After everyone approved, work was done on the presentation. After making the presentation, everyone transferred their work to the report and the report was completed.
