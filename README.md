@@ -1,9 +1,3 @@
-COMP 204: TETRIS 2048 PROJECT REPORT
-
-MÜNEVVER IŞIL KARAGÜL - 042001036
-YİĞİT KÖSEALİ - 042101079
-İLAYDA İSTİKAM-042101087
-
 ABSTRACT
 
 This report will detail the design and implementation of the second project. Which is creating a challenging hybrid of two classic games one being Tetris and the other being 2048. The game is titled “Tetris 2048”. Players must manipulate falling tetrominoes in order to align them in ways that they will merge inspired by the tile combination mechanics of the game 2048 while being true to the rules of Tetris at the same time. Python was used in the development of the project. The development process consisted of creating and implementing responsive controls for manipulating tetromino shapes just like in Tetris, the conditions were also put in order to end the game when it was needed the most important thing being the merging of tiles that truly combines two games into one. The game does enhance strategic and fast thinking as in a player must always plan their tile placements and plan them under time constraints. In this report, the reader will see an overview of the given project and our solution to it.
